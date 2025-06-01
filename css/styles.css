@@ -192,6 +192,10 @@ img {
   gap: 24px;
 }
 
+.benefits-width {
+  width: calc((100% (1158px) - 72px) / 4);
+}
+
 .benefits {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -207,7 +211,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  width: calc((100% (1158px) - 72px) / 4);
 }
 
 .team {
