@@ -44,8 +44,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
 .page-header {
-  border-bottom: 1px #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -129,6 +132,10 @@ a {
   background-color: #2e2f42;
 }
 
+.main-container {
+  padding: 188px;
+}
+
 .main-body {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
@@ -136,6 +143,10 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
+  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-button {
@@ -148,7 +159,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  vertical-align: middle;
+  min-width: 169px;
+  border-radius: 4px;
+  height: 56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-button:hover,
