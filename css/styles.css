@@ -213,12 +213,23 @@ img {
   color: #434455;
 }
 
+.team-container {
+  padding: 120px 0;
+}
+
 .team {
   background-color: #f4f4fd;
 }
 
 .team-info {
   background-color: #ffffff;
+  width: calc((1158px - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .our-team {
@@ -230,6 +241,11 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-desc {
+  padding: 32px 0;
 }
 
 .team-member {
@@ -240,6 +256,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-job {
