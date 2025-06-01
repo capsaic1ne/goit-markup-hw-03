@@ -82,8 +82,6 @@ img {
 
 .footer-logo .logo-part {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .nav-list {
@@ -317,4 +315,9 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
