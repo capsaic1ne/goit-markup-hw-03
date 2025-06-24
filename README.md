@@ -1,1 +1,2 @@
-# go-it-markup-hw-02
+# goit-markup-hw-02
+This is my first project!
